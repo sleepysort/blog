@@ -3,21 +3,21 @@ $(function() {
   CMS.init({
 
     // Name of your site or location of logo file, relative to root directory (img/logo.png)
-    siteName: 'My Site',
+    siteName: 'sleepyblog',
 
     // Tagline for your site
-    siteTagline: 'Your site tagline',
+    siteTagline: 'Probably mostly food.',
 
     // Email address
-    siteEmail: 'your_email@example.com',
+    siteEmail: 'shawnsmlee@gmail.com',
 
     // Name
-    siteAuthor: 'Your Name',
+    siteAuthor: 'Shawn Lee',
 
     // Navigation items
     siteNavItems: [
-      { name: 'Github', href: 'https://github.com/yourname', newWindow: false},
-      { name: 'About'}
+      { name: 'About', href: 'https://sleepsort.github.io' },
+      { name: 'Github', href: 'https://github.com/sleepysort', newWindow: false}
     ],
 
     // Posts folder name
@@ -53,14 +53,14 @@ $(function() {
 
      // If Github mode is set, your Github username and repo name.
     githubUserSettings: {
-      username: 'yourusername',
-      repo: 'yourrepo'
+      username: 'sleepysort',
+      repo: 'blog'
     },
 
     // If Github mode is set, choose which Github branch to get files from.
     // Defaults to Github pages branch (gh-pages)
     githubSettings: {
-      branch: 'gh-pages',
+      branch: 'master',
       host: 'https://api.github.com'
     }
 
